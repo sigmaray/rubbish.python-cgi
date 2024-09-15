@@ -4,6 +4,6 @@ services:
     ports:
       - "8088:8088"
   hello_world:
-    image: willejs/go-hello-world
+    image: crccheck/hello-world
     ports:
-      - "8484:8484"
+      - "8484:8000"
